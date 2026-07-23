@@ -1,0 +1,51 @@
+[
+  {
+    "id": 11,
+    "title": "Search Me",
+    "date": "2026-11-10",
+    "startTime": null,
+    "endTime": null,
+    "description": "Try and use the search bar to search for this announcement, or any other announcement. Try and search for any of these key words:\n- Dog\n- tomato\n- Shakespeare\n- image\n\nTry and search using the date or time of the announcement.",
+    "images": [],
+    "links": [],
+    "type": "announcement"
+  },
+  {
+    "id": 10,
+    "title": "Test Announcement",
+    "date": "2026-07-30",
+    "startTime": "18:30",
+    "endTime": "20:00",
+    "description": "Announcements can be easily added with a date, start time, and end time. Images can be attached, including multiple images. This announcement shows everything that can be done with announcements.\n\nTwo images are attached. You can press the arrows to scroll through them. You can press the image to enlarge it, and press the X or press off of the image to close the enlarged image.\n\nThe announcement has a date attached to it, July 30, 2026. If you look at the calendar at the top of the page and search for that date, you can press it to see all of the announcements for that day, which would be this announcement. You can also use the search bar to search by announcement date.\n\nThere is an optional start and end time on the announcement. You can show the start and end time of an event for that day, like a show or other event.\n\nMore features will likely get added.",
+    "images": [
+      "/images/uploads/1784666803721-oakland-center-arts-newbuilding.jpg",
+      "/images/uploads/1784666806401-announcement.png"
+    ],
+    "links": [],
+    "type": "announcement"
+  },
+  {
+    "id": 12,
+    "title": "Oakland Center for the Arts first open house!",
+    "date": "2026-07-06",
+    "startTime": "17:00",
+    "endTime": "22:00",
+    "description": "Come join us for our first open house in our new home 280 E. Market St., Warren, OH 44481. The event starts at 5 o’clock. Probably be done around 10 o’clock. We have some great food a cash bar for drinks by donation.\nCome and see what our plans are for the building how we are progressing and let us know how you would like to be involved! \nThe Oakland is excited to share our new home with the community. Please join us to hear what we’re going to do for our next season. This is a kickoff for our major fundraising campaign for more information. Call 330–406–0606. Or email Oakland center@gmail.com.\nHope to see you there!",
+    "images": [
+      "/images/uploads/1784692747158-1000006568.jpg"
+    ],
+    "links": [
+      {
+        "label": "Location:",
+        "text": "280 E. Market St., Warren, OH 44481",
+        "url": "https://maps.app.goo.gl/FF8BULZMLNGE1MDDA"
+      },
+      {
+        "label": "Facebook Event:",
+        "text": "Event link",
+        "url": "https://www.facebook.com/events/2274312969770630/"
+      }
+    ],
+    "type": "event"
+  }
+]

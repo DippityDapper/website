@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title data-page-title="Contact">Oakland</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/site-config.js" defer></script>
+    <script src="/scripts/layout.js" defer></script>
+    <script src="/scripts/contact-form.js" defer></script>
+</head>
+
+<body>
+
+    <div id="site-header"></div>
+
+    <main class="site-main">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="page-lead">Questions about tickets, rentals, volunteering, or donations? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <div class="container page-content">
+            <div class="contact-grid">
+                <section>
+                    <h2>Get in touch</h2>
+                    <ul class="contact-info-list">
+                        <li>
+                            <strong>Address</strong>
+                            <a href="https://maps.app.goo.gl/FF8BULZMLNGE1MDDA" data-site="address"></a>
+                        </li>
+                        <li>
+                            <strong>Box office phone</strong>
+                            <a data-site-href="phone" data-site="phone"></a>
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            <a data-site-href="email" data-site="email"></a>
+                        </li>
+                        <li>
+                            <strong>Box office hours</strong>
+                            <span data-site="boxOfficeHours"></span>
+                        </li>
+                    </ul>
+
+                    <div class="contact-map">
+                        <img src="/images/oakland-center-arts-newbuilding.jpg" alt="Theater entrance">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Send a message</h2>
+                    <form class="contact-form" data-site-form="contact">
+                        <input type="checkbox" name="botcheck" class="botcheck-field" tabindex="-1" autocomplete="off">
+                        <label>
+                            Name
+                            <input type="text" name="name" required autocomplete="name">
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" name="email" required autocomplete="email">
+                        </label>
+                        <label>
+                            Subject
+                            <select name="subject">
+                                <option>General inquiry</option>
+                                <option>Tickets &amp; seating</option>
+                                <option>Volunteering</option>
+                                <option>Venue rental</option>
+                                <option>Donations &amp; sponsorship</option>
+                            </select>
+                        </label>
+                        <label>
+                            Message
+                            <textarea name="message" rows="6" required></textarea>
+                        </label>
+                        <button type="submit">Send message</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div id="site-footer"></div>
+
+</body>
+
+</html>

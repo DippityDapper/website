@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title data-page-title="Announcements">Oakland</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/site-config.js" defer></script>
+    <script src="/scripts/layout.js" defer></script>
+    <script src="/scripts/announcements-common.js" defer></script>
+    <script src="/scripts/announcer.js" defer></script>
+</head>
+
+<body class="announcement-page">
+
+    <div id="site-header"></div>
+
+    <main class="site-main">
+        <div class="announcement-page-inner">
+            <h1>Calendar</h1>
+
+            <section class="announcement-calendar-section" aria-label="Event calendar">
+                <section id="announcement-calendar" class="announcement-calendar"></section>
+
+                <div id="calendar-day-detail" class="calendar-day-detail" hidden>
+                    <h2 id="calendar-day-detail-title"></h2>
+                    <ul id="calendar-day-detail-list"></ul>
+                </div>
+            </section>
+
+            <h1>Announcements</h1>
+
+            <div class="announcement-search">
+                <input id="announcement-search" type="search" autocomplete="off"
+                    placeholder="Search announcements…" aria-label="Search announcements">
+            </div>
+
+            <fieldset class="announcement-type-filter" id="announcement-type-filter">
+                <legend class="sr-only">Filter by type</legend>
+                <label class="type-filter-option type-filter-all">
+                    <input type="radio" name="type-filter" value="all" checked>
+                    All
+                </label>
+                <label class="type-filter-option type-filter-announcement">
+                    <input type="radio" name="type-filter" value="announcement">
+                    Announcements
+                </label>
+                <label class="type-filter-option type-filter-event">
+                    <input type="radio" name="type-filter" value="event">
+                    Events
+                </label>
+            </fieldset>
+
+            <p id="announcements-empty" hidden>No announcements match your search.</p>
+
+            <section id="announcements" class="announcement-list"></section>
+        </div>
+    </main>
+
+    <div id="site-footer"></div>
+
+</body>
+
+</html>

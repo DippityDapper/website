@@ -2,24 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title data-page-title>Oakland</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oakland Center – Coming Soon</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/site-config.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/layout.js" defer></script>
+    <script src="/scripts/announcements-common.js" defer></script>
+    <script src="/scripts/home-featured.js" defer></script>
 </head>
 
 <body>
-    <main class="page">
-        <div class="card">
-            <p class="eyebrow">Oakland Center</p>
-            <h1>We're getting things ready</h1>
-            <p class="message">
-                Our website is currently under construction. Check back soon for updates
-                on performances, announcements, and community events.
-            </p>
-            <p class="note">Thank you for your patience.</p>
+
+    <div id="site-header"></div>
+
+    <main class="site-main">
+        <section class="hero" aria-label="Welcome">
+            <div class="container">
+                <h2>Welcome to <span data-site="name"></span></h2>
+                <p data-site="tagline"></p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- <article class="content-section">
+                <h2>Our Mission</h2>
+                <p>
+                    <span data-site="name"></span> brings neighbors together through live performance. We produce
+                    plays, musicals, concerts, and community events that celebrate creativity, inclusion, and the
+                    arts — on stage and behind the scenes.
+                </p>
+            </article> -->
+
+            <!-- <section class="home-highlights" aria-label="What we offer">
+                <article class="highlight-card">
+                    <img src="/images/home-shows.png" alt="Audience watching a live performance">
+                    <h3>Live Shows</h3>
+                    <p>Seasonal productions featuring local actors, musicians, and volunteers.</p>
+                </article>
+                <article class="highlight-card">
+                    <img src="/images/home-workshops.png" alt="Theater workshop in progress">
+                    <h3>Workshops</h3>
+                    <p>Classes and camps for all ages — from first-time performers to seasoned players.</p>
+                </article>
+                <article class="highlight-card">
+                    <img src="/images/home-community.png" alt="Community gathering at the theater">
+                    <h3>Community Events</h3>
+                    <p>Open mic nights, fundraisers, and special events that keep the doors open year-round.</p>
+                </article>
+            </section> -->
+
+            <section id="home-featured-event" class="featured-event-section" aria-label="Featured event" hidden>
+            </section>
+
+            <section class="home-announcements-section" aria-label="Latest announcements">
+                <div class="home-announcements-header">
+                    <h2>Latest Announcements</h2>
+                    <a href="/pages/announcements.html" class="home-announcements-view-all">View all &rarr;</a>
+                </div>
+                <div id="home-announcements-carousel" class="home-carousel" hidden></div>
+            </section>
         </div>
     </main>
+
+    <div id="site-footer"></div>
+
 </body>
 
 </html>

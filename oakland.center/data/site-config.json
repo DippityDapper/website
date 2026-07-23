@@ -1,0 +1,16 @@
+{
+  "name": "Oakland",
+  "tagline": "Center For The Arts",
+  "logo": "/images/logo.svg",
+  "logoAlt": "Theater logo",
+  "email": "oaklandcenter@gmail.com",
+  "phone": "(330) 406-0606",
+  "phoneTel": "+13304060606",
+  "address": "280 E. Market St., Warren, OH 44481",
+  "boxOfficeHours": "NA",
+  "social": {
+    "twitter": "https://example.com",
+    "facebook": "https://www.facebook.com/oakland.arts",
+    "instagram": "https://example.com"
+  }
+}
